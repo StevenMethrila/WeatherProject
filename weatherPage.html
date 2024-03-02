@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/2db0db1c69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Box">
+            <form>
+                <input type="search" placeholder="Enter your Location" class="searchbox" id="searchinput" />
+                <div>
+                    <img src="https://res.cloudinary.com/dvlat5yka/image/upload/v1708347577/pngtree-cloud-and-sun-type-of-weather-png-image_6105935_fagwpk.png" class="cloud-image" />
+                </div>
+                <div>
+                    <p class="para" id="para-Hyderabad"></p>
+                    <p class="para" id="para-Temperature"></p>
+                </div>
+                <div class="footer-block">
+                    <div class="humidity">
+                        <img src="https://res.cloudinary.com/dvlat5yka/image/upload/v1708349903/1182902_humidity_x7g2na.png" class="humidity-icon" />
+                        <div class="labelHum">
+                            <label id="hum-label"></label>
+                        </div>
+                        <p class="humidity-para">Humidity</p>
+                    </div>
+                    <div class="wind">
+                        <img src="https://res.cloudinary.com/dvlat5yka/image/upload/v1708349913/wind_icon_tap8ho.png" class="wind-icon" />
+                        <div class="labelWind">
+                            <label id="wind-label"></label>
+                        </div>
+                        <p class="wind-para">Wind</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="weather.js">
+    </script>
+</body>
+
+</html>

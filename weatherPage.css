@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: grey; */
+}
+
+.container {
+    width: 100%;
+    height: 85vh;
+}
+
+.Box {
+    width: 550px;
+    height: 650px;
+    margin: auto;
+    background-image: linear-gradient(200deg, white, #74B9FF);
+    box-shadow: 2px 2px 7px 3px #e7e1e1;
+    margin-top: auto;
+    margin-top: 120px;
+    border-radius: 45px;
+
+}
+
+.searchbox {
+    width: 85%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 8px 3px #e1dada;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-family: Beef serif;
+    background-color: white;
+}
+
+.cloud-image {
+    width: 260px;
+    height: 240px;
+    background-color: transparent;
+    margin-left: 125px;
+    margin-top: 1px;
+}
+
+.para {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.humidity-icon {
+    width: 40px;
+    height: 45px;
+    margin-left: 22px;
+
+}
+
+.wind-icon {
+    width: 40px;
+    height: 45px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.footer-block {
+    width: 90%;
+    height: 10vh;
+
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.humidity {
+    float: left;
+}
+
+.wind {
+    float: right;
+}
+
+.labelHum {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: Beef serif;
+    font-weight: bold;
+}
+
+.labelWind {
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-family: Beef serif;
+    font-weight: bold;
+}
+
+.humidity-para {
+    margin-left: 45px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.wind-para {
+    margin-left: 70px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+}
